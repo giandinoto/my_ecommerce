@@ -44,3 +44,16 @@ footer {
 button{
   padding: 3px 5px;
 }
+
+
+.section {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+}
+
+
+.card{
+  margin: 10px 0px;
+}
