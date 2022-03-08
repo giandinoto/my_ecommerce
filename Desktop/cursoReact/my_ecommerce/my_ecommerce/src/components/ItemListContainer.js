@@ -21,8 +21,7 @@ export const ItemListContainer = ({welcome}) => {
         getProducts().then(function (respuestaPromesa) {
 
             setItems(respuestaPromesa)
-        })
-        //.catch(error => console.log(error));
+        }).catch(error => console.log(error));
 
     }, [])
     
