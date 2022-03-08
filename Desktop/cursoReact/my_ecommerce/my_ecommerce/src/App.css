@@ -4,7 +4,7 @@
 }
 
 header {
-  background: #ccc;
+  background: #ccc; 
   display: flex;
   align-items: center;  
   justify-content: space-between;
