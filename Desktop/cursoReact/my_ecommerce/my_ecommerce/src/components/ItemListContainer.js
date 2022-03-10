@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 import products from '../database/products'
 import { ItemList } from './ItemList'
 
-
 function getProducts() {
     return new Promise((resolve, reject) => {
 
@@ -13,7 +12,7 @@ function getProducts() {
 
 export const ItemListContainer = ({welcome}) => {
 
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState([]); 
 
 
     useEffect(() => {
@@ -33,5 +32,7 @@ export const ItemListContainer = ({welcome}) => {
         </>
     )
 }
+
+
 
 export default ItemListContainer

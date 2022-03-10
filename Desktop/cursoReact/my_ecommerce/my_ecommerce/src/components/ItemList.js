@@ -9,13 +9,15 @@ import Item from './Item'
 export const ItemList = ({ items }) => {
     return (
 
-        <section>
-        <div class="card-deck">
+        <section className='container-fluid'>
+       
+        <div className="card-deck">
 
             {items.map(item => {
 
                 return (
-                    <Item
+                    <Item 
+                        key= {item.id}
                         id={item.id}
                         title={item.title}
                         description={item.description}
